@@ -1,0 +1,26 @@
+{
+  "name": "esm-experiments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "lint": "xo",
+    "offline": "serverless offline start",
+    "deploy": "serverless deploy"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.11.5",
+    "serverless": "^3.38.0",
+    "serverless-offline": "^13.3.3",
+    "serverless-plugin-typescript": "^2.1.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "xo": "^0.56.0"
+  }
+}
